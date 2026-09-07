@@ -579,7 +579,7 @@ function KeySystem:CreateKeySystem(Config)
 
     local GetKeyButton, GetKeyGlow = createEnhancedButton({
         Font = Enum.Font.GothamBold,
-        Text = "Get Key (Discord)",
+        Text = "Join Telegram",
         TextColor3 = Color3.fromRGB(255, 255, 255),
         TextSize = 16,
         BackgroundColor3 = AccentPurple,
@@ -590,10 +590,10 @@ function KeySystem:CreateKeySystem(Config)
     }, ButtonsFrame)
 
     GetKeyButton.Activated:Connect(function()
-        local discordLink = "https://discord.gg/9eFf93Kg8D"
+        local telegramLink = "https://t.me/+UaRpkvXJRyUzMzhk"
         if setclipboard then
-            setclipboard(discordLink)
-            showNotification("Discord Invite Copied")
+            setclipboard(telegramLink)
+            showNotification("Telegram Group Link Copied")
         end
     end)
 
