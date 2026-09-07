@@ -939,7 +939,7 @@ KeySystem:CreateKeySystem({
     SaveKey = false,
     MainScriptCallback = function(success)
         if success then
-            local MainScriptUrl = "https://raw.githubusercontent.com/inscan7-del/DEVIL-LOADER/refs/heads/main/DEVIL_HUB_V1.01_MAIN_PARITY.lua"
+            local MainScriptUrl = "https://raw.githubusercontent.com/inscan7-del/DEVIL-LOADER/refs/heads/main/DEVIL_HUB_NEW_UI_SCROLL_TABS.lua.txt"
 
             local ok, err = pcall(function()
                 local source = game:HttpGet(MainScriptUrl)
